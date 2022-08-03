@@ -1,0 +1,7 @@
+services:
+  busybox:
+      container_name: busybox
+      hostname: busybox
+      image: busybox
+      command: sleep 60
+
